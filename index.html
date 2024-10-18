@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+<div class="scroll-but">
+    <img src="pecas/ion.png" onclick="esconderElemento()" width="60px" height="60px">
+
+    <div class="scroll-bg"></div>
+        <div class="scroll-div">
+            <div class="scroll-object">
+
+                <button onclick="piao()" class="but">piao</button>
+                <button onclick="torre()" class="but">torre</button>
+                <button onclick="bispo()" class="but">bispo</button>
+                <button onclick="cavalo()" class="but">cavalo</button>
+                <button onclick="rainha()" class="but">rainha</button>
+                <button onclick="rei()" class="but">rei</button>
+                <button onclick="bruna()" class="but">BRUNA</button>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+    <div class="quadrado">
+
+        <div class="linha">
+
+            <button onclick="mostrarId('a1')" class="casa1" id="a1"> </button>
+            <button onclick="mostrarId('a2')" class="casa" id="a2"></button>
+            <button onclick="mostrarId('a3')" class="casa1" id="a3"></button>
+            <button onclick="mostrarId('a4')" class="casa" id="a4"></button>
+            <button onclick="mostrarId('a5')" class="casa1" id="a5"></button>
+            <button onclick="mostrarId('a6')" class="casa" id="a6"></button>
+            <button onclick="mostrarId('a7')" class="casa1" id="a7"></button>
+
+
+
+        </div>
+        <div class="linha">
+
+            <button onclick="mostrarId('b1')" class="casa" id="b1"></button>
+            <button onclick="mostrarId('b2')" class="casa1" id="b2"></button>
+            <button onclick="mostrarId('b3')" class="casa" id="b3"></button>
+            <button onclick="mostrarId('b4')" class="casa1" id="b4"></button>
+            <button onclick="mostrarId('b5')" class="casa" id="b5"></button>
+            <button onclick="mostrarId('b6')" class="casa1" id="b6"></button>
+            <button onclick="mostrarId('b7')" class="casa" id="b7"></button>
+
+
+
+        </div>
+        <div class="linha">
+
+            <button onclick="mostrarId('c1')" class="casa1" id="c1"></button>
+            <button onclick="mostrarId('c2')" class="casa" id="c2"></button>
+            <button onclick="mostrarId('c3')" class="casa1" id="c3"></button>
+            <button onclick="mostrarId('c4')" class="casa" id="c4"></button>
+            <button onclick="mostrarId('c5')" class="casa1" id="c5"></button>
+            <button onclick="mostrarId('c6')" class="casa" id="c6"></button>
+            <button onclick="mostrarId('c7')" class="casa1" id="c7"></button>
+
+
+
+        </div>
+        <div class="linha">
+
+            <button onclick="mostrarId('d1')" class="casa" id="d1"></button>
+            <button onclick="mostrarId('d2')" class="casa1" id="d2"></button>
+            <button onclick="mostrarId('d3')" class="casa" id="d3"></button>
+            <button onclick="mostrarId('d4')" class="casa1" id="d4"></button>
+            <button onclick="mostrarId('d5')" class="casa" id="d5"></button>
+            <button onclick="mostrarId('d6')" class="casa1" id="d6"></button>
+            <button onclick="mostrarId('d7')" class="casa" id="d7"></button>
+
+
+
+        </div>
+        <div class="linha">
+
+            <button onclick="mostrarId('e1')" class="casa1" id="e1"></button>
+            <button onclick="mostrarId('e2')" class="casa" id="e2"></button>
+            <button onclick="mostrarId('e3')" class="casa1" id="e3"></button>
+            <button onclick="mostrarId('e4')" class="casa" id="e4"></button>
+            <button onclick="mostrarId('e5')" class="casa1" id="e5"></button>
+            <button onclick="mostrarId('e6')" class="casa" id="e6"></button>
+            <button onclick="mostrarId('e7')" class="casa1" id="e7"></button>
+
+
+
+        </div>
+        <div class="linha">
+
+            <button onclick="mostrarId('f1')" class="casa" id="f1"></button>
+            <button onclick="mostrarId('f2')" class="casa1" id="f2"></button>
+            <button onclick="mostrarId('f3')" class="casa" id="f3"></button>
+            <button onclick="mostrarId('f4')" class="casa1" id="f4"></button>
+            <button onclick="mostrarId('f5')" class="casa" id="f5"></button>
+            <button onclick="mostrarId('f6')" class="casa1" id="f6"></button>
+            <button onclick="mostrarId('f7')" class="casa" id="f7"></button>
+
+
+
+        </div>
+        <div class="linha">
+
+            <button onclick="mostrarId('g1')" class="casa1" id="g1"></button>
+            <button onclick="mostrarId('g2')" class="casa" id="g2"></button>
+            <button onclick="mostrarId('g3')" class="casa1" id="g3"></button>
+            <button onclick="mostrarId('g4')" class="casa" id="g4"></button>
+            <button onclick="mostrarId('g5')" class="casa1" id="g5"></button>
+            <button onclick="mostrarId('g6')" class="casa" id="g6"></button>
+            <button onclick="mostrarId('g7')" class="casa1" id="g7"></button>
+
+
+
+        </div>
+        <div class="linha">
+
+            <button onclick="mostrarId('h1')" class="casa" id="h1"></button>
+            <button onclick="mostrarId('h2')" class="casa1" id="h2"></button>
+            <button onclick="mostrarId('h3')" class="casa" id="h3"></button>
+            <button onclick="mostrarId('h4')" class="casa1" id="h4"></button>
+            <button onclick="mostrarId('h5')" class="casa" id="h5"></button>
+            <button onclick="mostrarId('h6')" class="casa1" id="h6"></button>
+            <button onclick="mostrarId('h7')" class="casa" id="h7"></button>
+
+
+
+        </div>
+        <button onclick="excluir()" id="bt-excluir">excluir</button>
+
+
+
+
+
+    </div>
+    <button onclick="salvarpecas()" class="bt" >salvar peça </button>
+    <button onclick="restaurar()" id="bt-restaurar" class="bt">restaurar</button>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
