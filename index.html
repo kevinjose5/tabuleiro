@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+
 </head>
 
 <body>
@@ -15,7 +15,7 @@
 
 <div class="scroll-but">
     <img src="pecas/ion.png" onclick="esconderElemento()" width="60px" height="60px">
-    
+
     <div class="scroll-bg"></div>
         <div class="scroll-div">
             <div class="scroll-object">
@@ -38,10 +38,10 @@
             </div>
         </div>
     </div>
-    
+
 </div>
-    
-   
+
+
 
     <div class="quadrado">
 
@@ -156,10 +156,13 @@
 
 
     </div>
+    <button onclick="salvarpecas()" class="bt" >salvar peça </button>
+    <button onclick="restaurar()" id="bt-restaurar" class="bt">restaurar</button>
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="script.js"></script>
 
 </body>
 
