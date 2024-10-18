@@ -14,7 +14,7 @@ body{
   justify-content: center;
   height: 100vh;
   width: 100wh;
-  background:radial-gradient(circle,#a23901,#3d0000);
+  background:radial-gradient(circle,#00bfff,#090240);
 }
 
 /* formatação geral */
@@ -24,7 +24,7 @@ body{
 /* formatação da base */
 .quadrado{
   display: flex;
-  background-color: rgb(34, 14, 1);
+  background-color: rgb(0, 0, 0);
 }
 
 /* formatação linha */
@@ -39,7 +39,7 @@ body{
   align-items: center;
   justify-content: center;
   padding: 30px;
-  background-image: url('fundos/fundo7.jpg');
+  background-image: url('fundos/PLANO.jpg');
   background-size: cover; /* Faz a imagem cobrir o elemento e permite corte */
   background-repeat: no-repeat; /* Evita repetição da imagem */
   background-position: center; /* Centraliza a imagem no elemento */
@@ -51,7 +51,7 @@ body{
   align-items: center;
   justify-content: center;
   padding: 30px;
-  background-image: url('fundos/fundo5.jpg');
+  background-image: url('fundos/transferir.jpeg');
   background-size: cover; /* Faz a imagem cobrir o elemento e permite corte */
   background-repeat: no-repeat; /* Evita repetição da imagem */
   background-position: center; /* Centraliza a imagem no elemento */
@@ -153,4 +153,24 @@ body{
 }
 #bt-excluir:hover{
   box-shadow: 4px 6px 0px rgb(188, 170, 7);
+}
+
+
+/*textes do botão  */
+
+.bt{
+
+
+  bottom: 0;
+  right: 0;
+
+  border-radius: 40%;
+  width: 150px;
+  height: 90px;
+  background-color: #a23901;
+  color: gold;
+}
+.bt:hover{
+  box-shadow: 4px 6px 0px rgb(188, 170, 7);
+
 }
