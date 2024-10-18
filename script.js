@@ -324,6 +324,8 @@ async function restaurar(){//função que coleta as peças do banco de dados e c
         if (res) {
             console.log("seleção deu certo");
             var ser=res.data[0][coluna_tabela]; //seleciona a casa 
+            let casaap=document.getElementById(casa_tabela);
+            casaap.textContent="";
 
 
 
