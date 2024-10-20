@@ -14,7 +14,7 @@ body{
   justify-content: center;
   height: 100vh;
   width: 100wh;
-  background:radial-gradient(circle,#00bfff,#090240);
+  background:radial-gradient(circle,#6b2b00,#190a00);
 }
 
 /* formatação geral */
@@ -39,7 +39,7 @@ body{
   align-items: center;
   justify-content: center;
   padding: 30px;
-  background-image: url('fundos/PLANO.jpg');
+  background-image: url('fundos/fundo4.jpg');
   background-size: cover; /* Faz a imagem cobrir o elemento e permite corte */
   background-repeat: no-repeat; /* Evita repetição da imagem */
   background-position: center; /* Centraliza a imagem no elemento */
@@ -51,7 +51,7 @@ body{
   align-items: center;
   justify-content: center;
   padding: 30px;
-  background-image: url('fundos/transferir.jpeg');
+  background-image: url('fundos/fundo6.jpg');
   background-size: cover; /* Faz a imagem cobrir o elemento e permite corte */
   background-repeat: no-repeat; /* Evita repetição da imagem */
   background-position: center; /* Centraliza a imagem no elemento */
